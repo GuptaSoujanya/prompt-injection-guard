@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompt-injection-guard"
+version = "0.2.0"
+description = "Security and red-teaming evaluation harness for LLM prompt injection and safety alignment."
+readme = "README.md"
+authors = [{ name = "Soujanya Gupta", email = "soujanya.gupta@ethara.ai" }]
+license = { text = "Apache-2.0" }
+requires-python = ">=3.9"
+
+[project.scripts]
+prompt-guard = "prompt_guard.cli:main"
