@@ -9,3 +9,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-08-28] test: add unit tests for classic prompt injection signature detection
 - [2023-08-31] feat: implement input sanitization and delimiter escaping
 - [2023-09-02] feat: add XML/JSON safe delimiter encapsulation wrappers
+- [2023-09-04] test: verify sanitizer neutralizes payload without destroying valid user text
