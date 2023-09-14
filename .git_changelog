@@ -13,3 +13,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-09-07] feat: implement Attack Success Rate (ASR) evaluation metric
 - [2023-09-09] feat: implement False Positive Rate (FPR) on benign text corpora
 - [2023-09-11] test: add unit tests for ASR and FPR calculations
+- [2023-09-14] docs: document threat model and prompt injection taxonomy (OWASP LLM01)
