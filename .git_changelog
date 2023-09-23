@@ -17,3 +17,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-09-16] feat: add curated test suite of 50 prompt injection attacks
 - [2023-09-18] feat: add 50 benign edge cases (coding questions, translations, security queries)
 - [2023-09-21] ci: configure GitHub Actions automated test workflow
+- [2023-09-23] feat: implement multi-layered rule pipeline (Heuristic + Structural)
