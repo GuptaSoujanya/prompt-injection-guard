@@ -18,3 +18,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-09-18] feat: add 50 benign edge cases (coding questions, translations, security queries)
 - [2023-09-21] ci: configure GitHub Actions automated test workflow
 - [2023-09-23] feat: implement multi-layered rule pipeline (Heuristic + Structural)
+- [2023-09-25] feat: add structural role-play escape detector (DAN, AIM patterns)
