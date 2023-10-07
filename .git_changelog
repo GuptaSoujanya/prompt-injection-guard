@@ -23,3 +23,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-09-30] perf: compile pre-warmed regex patterns for sub-millisecond evaluation
 - [2023-10-02] docs: add detection benchmark results table comparing ASR and FPR
 - [2023-10-05] feat: detect markdown image exfiltration payloads (![image](url))
+- [2023-10-07] feat: detect zero-width unicode hidden instructions
