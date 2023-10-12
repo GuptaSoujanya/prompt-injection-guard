@@ -25,3 +25,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-10-05] feat: detect markdown image exfiltration payloads (![image](url))
 - [2023-10-07] feat: detect zero-width unicode hidden instructions
 - [2023-10-09] test: add unit tests for invisible unicode character stripping
+- [2023-10-12] fix: reduce false positive rate on educational discussions about security
