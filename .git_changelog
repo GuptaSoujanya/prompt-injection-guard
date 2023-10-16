@@ -27,3 +27,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-10-09] test: add unit tests for invisible unicode character stripping
 - [2023-10-12] fix: reduce false positive rate on educational discussions about security
 - [2023-10-14] feat: implement prompt-guard command line interface
+- [2023-10-16] feat: add file scanning and batch benchmark evaluation in CLI
