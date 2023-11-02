@@ -34,3 +34,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-10-26] test: add test suite for encoded payload detection
 - [2023-10-28] fix: handle empty and whitespace-only string inputs safely
 - [2023-10-30] perf: optimize token entropy calculation using fast byte histograms
+- [2023-11-02] feat: add JSON telemetry export for SIEM security pipelines
