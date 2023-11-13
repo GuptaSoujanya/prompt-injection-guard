@@ -39,3 +39,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-11-06] docs: add incident response guide for prompt injection detection
 - [2023-11-09] feat: add indirect prompt injection detection for retrieved RAG chunks
 - [2023-11-11] feat: flag simulated system boundaries within context documents
+- [2023-11-13] test: verify detection of synthetic system prompt markers in context
