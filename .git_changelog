@@ -44,3 +44,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-11-18] test: add ReDoS resilience unit tests with 100k character payloads
 - [2023-11-20] perf: enforce timeout bounds on all regex evaluations
 - [2023-11-23] feat: implement structural quarantine tags for untrusted data
+- [2023-11-25] docs: document sandwich defense and delimiter enclosure patterns
