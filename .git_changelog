@@ -47,3 +47,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-11-25] docs: document sandwich defense and delimiter enclosure patterns
 - [2023-11-27] feat: expand injection suite with multi-turn prompt leak attacks
 - [2023-11-30] feat: add code execution prompt injection test cases
+- [2023-12-02] test: verify high detection rate on code sandbox escape vectors
