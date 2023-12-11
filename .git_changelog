@@ -51,3 +51,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-12-04] fix: normalize unicode canonical equivalence (NFC) before rule scanning
 - [2023-12-07] docs: update README with updated detection scores: 96.4% ASR defense
 - [2023-12-09] feat: add --strict mode for zero-tolerance security environments
+- [2023-12-11] feat: add --threshold configuration for heuristic anomaly score
