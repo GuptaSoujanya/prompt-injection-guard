@@ -54,3 +54,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-12-11] feat: add --threshold configuration for heuristic anomaly score
 - [2023-12-14] test: verify strict mode catches borderline adversarial prompts
 - [2023-12-16] perf: stream file inputs during batch evaluation to minimize RAM usage
+- [2023-12-18] feat: add lightweight WSGI/ASGI middleware adapter
