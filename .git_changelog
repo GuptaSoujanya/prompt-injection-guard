@@ -57,3 +57,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-12-18] feat: add lightweight WSGI/ASGI middleware adapter
 - [2023-12-21] docs: add FastAPI and Flask integration snippet in documentation
 - [2023-12-23] test: verify middleware intercepts malicious payloads and returns 403
+- [2023-12-23] chore: bump version to v0.1.0 and polish release notes
