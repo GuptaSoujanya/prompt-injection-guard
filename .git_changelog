@@ -63,3 +63,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-02-10] test: verify detection of translated jailbreak signatures
 - [2024-02-23] perf: optimize regex pattern grouping to reduce evaluation time by 40%
 - [2024-03-08] docs: add threat intelligence report on multilingual jailbreak trends
+- [2024-03-21] feat: implement semantic delimiter sandwiching with randomized boundary tokens
