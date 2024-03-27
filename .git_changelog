@@ -4,3 +4,4 @@ Inception Date: 2024-03-20
 Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 
 - [2024-03-20] chore: scaffold prompt-injection-guard repository and configuration
+- [2024-03-27] feat: implement regex pattern matcher for common delimiter hijacking
