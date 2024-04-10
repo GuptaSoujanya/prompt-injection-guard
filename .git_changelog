@@ -6,3 +6,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-03-20] chore: scaffold prompt-injection-guard repository and configuration
 - [2024-03-27] feat: implement regex pattern matcher for common delimiter hijacking
 - [2024-04-03] feat: detect system prompt override markers (Ignore previous instructions)
+- [2024-04-10] test: add unit tests for classic prompt injection signature detection
