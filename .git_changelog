@@ -10,3 +10,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-04-18] feat: implement input sanitization and delimiter escaping
 - [2024-04-25] feat: add XML/JSON safe delimiter encapsulation wrappers
 - [2024-05-02] test: verify sanitizer neutralizes payload without destroying valid user text
+- [2024-05-10] feat: implement Attack Success Rate (ASR) evaluation metric
