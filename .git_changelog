@@ -16,3 +16,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-05-31] docs: document threat model and prompt injection taxonomy (OWASP LLM01)
 - [2024-06-08] feat: add curated test suite of 50 prompt injection attacks
 - [2024-06-15] feat: add 50 benign edge cases (coding questions, translations, security queries)
+- [2024-06-22] ci: configure GitHub Actions automated test workflow
