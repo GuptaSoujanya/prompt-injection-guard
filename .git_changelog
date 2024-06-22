@@ -70,3 +70,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-05-13] docs: add production deployment guide with Kubernetes ingress examples
 - [2024-05-26] feat: add benchmark against OWASP Top 10 for LLM Applications (2024)
 - [2024-06-09] test: verify guard achieves 98.1% detection on OWASP LLM01 test sets
+- [2024-06-22] fix: resolve rare false positive on mathematical inequality operators
