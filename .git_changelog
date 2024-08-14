@@ -74,3 +74,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-07-05] feat: add CLI flag --export-sarif for GitHub Security tab integration
 - [2024-07-18] test: verify SARIF report schema validity against OASIS specification
 - [2024-08-01] docs: update README with SARIF integration instructions for CI/CD pipelines
+- [2024-08-14] perf: eliminate redundant string copies in input sanitizer pipeline
