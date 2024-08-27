@@ -75,3 +75,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-07-18] test: verify SARIF report schema validity against OASIS specification
 - [2024-08-01] docs: update README with SARIF integration instructions for CI/CD pipelines
 - [2024-08-14] perf: eliminate redundant string copies in input sanitizer pipeline
+- [2024-08-27] feat: add rate-limiting heuristic for repeated injection probe attempts
