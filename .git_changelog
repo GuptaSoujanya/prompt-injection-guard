@@ -77,3 +77,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-08-14] perf: eliminate redundant string copies in input sanitizer pipeline
 - [2024-08-27] feat: add rate-limiting heuristic for repeated injection probe attempts
 - [2024-09-10] test: verify rate-limiting triggers after 3 consecutive injection detections
+- [2024-09-23] fix: ensure thread safety in rate-limiting tracker cache
