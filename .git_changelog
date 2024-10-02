@@ -30,3 +30,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-09-10] feat: add file scanning and batch benchmark evaluation in CLI
 - [2024-09-18] docs: add CLI usage guide and pipeline integration examples in README
 - [2024-09-25] feat: implement token-level anomaly detection heuristic
+- [2024-10-02] feat: calculate entropy anomaly for obfuscated base64/rot13 payloads
