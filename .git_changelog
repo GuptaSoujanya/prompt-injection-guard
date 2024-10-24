@@ -33,3 +33,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-10-02] feat: calculate entropy anomaly for obfuscated base64/rot13 payloads
 - [2024-10-10] test: add test suite for encoded payload detection
 - [2024-10-17] fix: handle empty and whitespace-only string inputs safely
+- [2024-10-24] perf: optimize token entropy calculation using fast byte histograms
