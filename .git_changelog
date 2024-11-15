@@ -36,3 +36,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-10-24] perf: optimize token entropy calculation using fast byte histograms
 - [2024-10-31] feat: add JSON telemetry export for SIEM security pipelines
 - [2024-11-08] feat: add markdown report formatting for red-team audit logs
+- [2024-11-15] docs: add incident response guide for prompt injection detection
