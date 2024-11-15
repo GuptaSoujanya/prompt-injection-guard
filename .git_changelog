@@ -81,3 +81,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-10-06] docs: add security advisory guidelines and responsible disclosure policy
 - [2024-10-19] chore: release v1.0.0 production milestone with certified guardrails
 - [2024-11-02] chore: update pyproject.toml dependencies and bump build tools
+- [2024-11-15] test: run full regression test suite with 1,000 synthetic attack vectors
