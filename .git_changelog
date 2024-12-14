@@ -40,3 +40,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-11-22] feat: add indirect prompt injection detection for retrieved RAG chunks
 - [2024-11-30] feat: flag simulated system boundaries within context documents
 - [2024-12-07] test: verify detection of synthetic system prompt markers in context
+- [2024-12-14] chore: bump version to v0.5.0 and polish release notes
