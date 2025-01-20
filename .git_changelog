@@ -83,3 +83,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-11-02] chore: update pyproject.toml dependencies and bump build tools
 - [2024-11-15] test: run full regression test suite with 1,000 synthetic attack vectors
 - [2024-11-28] chore: finalize v1.0.0 release packaging
+- [2025-01-20] feat: implement agentic tool call poisoning detector
