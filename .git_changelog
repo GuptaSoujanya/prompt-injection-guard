@@ -44,3 +44,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-01-10] fix: prevent regex catastrophic backtracking on pathological repetitive strings
 - [2025-01-22] test: add ReDoS resilience unit tests with 100k character payloads
 - [2025-02-03] perf: enforce timeout bounds on all regex evaluations
+- [2025-02-15] feat: implement structural quarantine tags for untrusted data
