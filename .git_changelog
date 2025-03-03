@@ -85,3 +85,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-11-28] chore: finalize v1.0.0 release packaging
 - [2025-01-20] feat: implement agentic tool call poisoning detector
 - [2025-02-10] feat: verify integrity of tool execution arguments before dispatch
+- [2025-03-03] test: add unit tests for detecting SQL injection in LLM tool parameters
