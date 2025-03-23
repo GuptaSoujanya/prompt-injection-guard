@@ -47,3 +47,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-02-15] feat: implement structural quarantine tags for untrusted data
 - [2025-02-27] docs: document sandwich defense and delimiter enclosure patterns
 - [2025-03-11] feat: expand injection suite with multi-turn prompt leak attacks
+- [2025-03-23] feat: add code execution prompt injection test cases
