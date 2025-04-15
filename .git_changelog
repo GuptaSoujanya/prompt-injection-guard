@@ -87,3 +87,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-02-10] feat: verify integrity of tool execution arguments before dispatch
 - [2025-03-03] test: add unit tests for detecting SQL injection in LLM tool parameters
 - [2025-03-25] docs: add threat model for Autonomous Agent Tool Hijacking
+- [2025-04-15] feat: implement context window boundary isolation for multi-tenant RAG
