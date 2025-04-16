@@ -49,3 +49,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-03-11] feat: expand injection suite with multi-turn prompt leak attacks
 - [2025-03-23] feat: add code execution prompt injection test cases
 - [2025-04-04] test: verify high detection rate on code sandbox escape vectors
+- [2025-04-16] fix: normalize unicode canonical equivalence (NFC) before rule scanning
