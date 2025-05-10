@@ -51,3 +51,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-04-04] test: verify high detection rate on code sandbox escape vectors
 - [2025-04-16] fix: normalize unicode canonical equivalence (NFC) before rule scanning
 - [2025-04-28] docs: update README with updated detection scores: 96.4% ASR defense
+- [2025-05-10] feat: add --strict mode for zero-tolerance security environments
