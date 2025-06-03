@@ -53,3 +53,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-04-28] docs: update README with updated detection scores: 96.4% ASR defense
 - [2025-05-10] feat: add --strict mode for zero-tolerance security environments
 - [2025-05-22] feat: add --threshold configuration for heuristic anomaly score
+- [2025-06-03] test: verify strict mode catches borderline adversarial prompts
