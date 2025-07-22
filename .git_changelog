@@ -57,3 +57,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-06-15] perf: stream file inputs during batch evaluation to minimize RAM usage
 - [2025-06-28] feat: add lightweight WSGI/ASGI middleware adapter
 - [2025-07-10] docs: add FastAPI and Flask integration snippet in documentation
+- [2025-07-22] test: verify middleware intercepts malicious payloads and returns 403
