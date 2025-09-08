@@ -61,3 +61,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-08-03] feat: implement multi-lingual prompt injection detection (Spanish, Mandarin, Russian)
 - [2025-08-15] feat: add translation-based evasion attack detectors
 - [2025-08-27] test: verify detection of translated jailbreak signatures
+- [2025-09-08] perf: optimize regex pattern grouping to reduce evaluation time by 40%
