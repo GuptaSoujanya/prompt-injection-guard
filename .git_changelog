@@ -95,3 +95,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-08-01] docs: update README with agentic guardrail performance benchmarks
 - [2025-08-22] feat: add support for dynamic policy updates without restarting process
 - [2025-09-13] test: verify live policy reload applies new rules immediately
+- [2025-10-04] chore: bump release to v1.3.0 with agentic security module
