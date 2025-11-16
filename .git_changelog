@@ -97,3 +97,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-09-13] test: verify live policy reload applies new rules immediately
 - [2025-10-04] chore: bump release to v1.3.0 with agentic security module
 - [2025-10-26] chore: update code quality standards and run mypy type checker
+- [2025-11-16] chore: polish security documentation and best practices guide
