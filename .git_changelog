@@ -67,3 +67,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-10-14] test: verify randomized boundaries prevent delimiter prediction attacks
 - [2025-10-26] fix: handle nested markdown formatting inside user prompts cleanly
 - [2025-11-07] feat: add telemetry hook for logging detected threat signatures to OpenTelemetry
+- [2025-11-19] chore: release v1.0.0 production milestone with certified guardrails
