@@ -99,3 +99,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-10-26] chore: update code quality standards and run mypy type checker
 - [2025-11-16] chore: polish security documentation and best practices guide
 - [2026-01-18] feat: implement streaming token-by-token prompt injection detector
+- [2026-02-19] feat: abort LLM generation immediately upon detecting adversarial tokens
