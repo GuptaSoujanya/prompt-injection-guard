@@ -72,3 +72,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-01-12] feat: implement agentic tool call poisoning detector
 - [2026-01-26] feat: verify integrity of tool execution arguments before dispatch
 - [2026-02-10] test: add unit tests for detecting SQL injection in LLM tool parameters
+- [2026-02-25] docs: add threat model for Autonomous Agent Tool Hijacking
