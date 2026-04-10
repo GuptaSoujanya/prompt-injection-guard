@@ -75,3 +75,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-02-25] docs: add threat model for Autonomous Agent Tool Hijacking
 - [2026-03-12] feat: implement context window boundary isolation for multi-tenant RAG
 - [2026-03-26] test: verify context isolation prevents tenant data leakage through prompt extraction
+- [2026-04-10] fix: correct edge case where escaped quotes bypassed JSON parameter sanitizer
