@@ -80,3 +80,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-05-10] test: benchmark Aho-Corasick scanner achieving > 50 MB/s throughput
 - [2026-05-25] docs: update README with agentic guardrail performance benchmarks
 - [2026-06-08] feat: implement streaming token-by-token prompt injection detector
+- [2026-06-23] feat: abort LLM generation immediately upon detecting adversarial tokens
