@@ -104,3 +104,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-04-25] docs: document streaming detection architecture for low-latency APIs
 - [2026-05-28] perf: optimize streaming buffer windowing for sub-millisecond per-token checks
 - [2026-06-29] fix: ensure compatibility with Python 3.12 and modern async frameworks
+- [2026-08-01] test: verify zero false aborts on streaming generation of technical documentation
