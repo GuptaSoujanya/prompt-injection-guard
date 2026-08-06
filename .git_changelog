@@ -83,3 +83,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-06-23] feat: abort LLM generation immediately upon detecting adversarial tokens
 - [2026-07-08] test: verify streaming abort saves > 80% token costs during active attack
 - [2026-07-23] docs: document streaming detection architecture for low-latency APIs
+- [2026-08-06] perf: optimize streaming buffer windowing for sub-millisecond per-token checks
