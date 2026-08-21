@@ -84,3 +84,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-07-08] test: verify streaming abort saves > 80% token costs during active attack
 - [2026-07-23] docs: document streaming detection architecture for low-latency APIs
 - [2026-08-06] perf: optimize streaming buffer windowing for sub-millisecond per-token checks
+- [2026-08-21] fix: ensure compatibility with Python 3.12 and modern async frameworks
