@@ -1,88 +1,13 @@
-# Engineering Changelog: prompt-injection-guard
-
-Inception Date: 2024-03-20
-Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
-
-- [2024-03-20] chore: scaffold prompt-injection-guard repository and configuration
-- [2024-03-27] feat: implement regex pattern matcher for common delimiter hijacking
-- [2024-04-03] feat: detect system prompt override markers (Ignore previous instructions)
-- [2024-04-10] test: add unit tests for classic prompt injection signature detection
-- [2024-04-18] feat: implement input sanitization and delimiter escaping
-- [2024-04-25] feat: add XML/JSON safe delimiter encapsulation wrappers
-- [2024-05-02] test: verify sanitizer neutralizes payload without destroying valid user text
-- [2024-05-10] feat: implement Attack Success Rate (ASR) evaluation metric
-- [2024-05-17] feat: implement False Positive Rate (FPR) on benign text corpora
-- [2024-05-24] test: add unit tests for ASR and FPR calculations
-- [2024-05-31] docs: document threat model and prompt injection taxonomy (OWASP LLM01)
-- [2024-06-08] feat: add curated test suite of 50 prompt injection attacks
-- [2024-06-15] feat: add 50 benign edge cases (coding questions, translations, security queries)
-- [2024-06-22] ci: configure GitHub Actions automated test workflow
-- [2024-06-30] feat: implement multi-layered rule pipeline (Heuristic + Structural)
-- [2024-07-07] feat: add structural role-play escape detector (DAN, AIM patterns)
-- [2024-07-14] test: verify detector catches DAN-style jailbreak variants
-- [2024-07-21] perf: compile pre-warmed regex patterns for sub-millisecond evaluation
-- [2024-07-29] docs: add detection benchmark results table comparing ASR and FPR
-- [2024-08-05] feat: detect markdown image exfiltration payloads (![image](url))
-- [2024-08-12] feat: detect zero-width unicode hidden instructions
-- [2024-08-20] test: add unit tests for invisible unicode character stripping
-- [2024-08-27] fix: reduce false positive rate on educational discussions about security
-- [2024-09-03] feat: implement prompt-guard command line interface
-- [2024-09-10] feat: add file scanning and batch benchmark evaluation in CLI
-- [2024-09-18] docs: add CLI usage guide and pipeline integration examples in README
-- [2024-09-25] feat: implement token-level anomaly detection heuristic
-- [2024-10-02] feat: calculate entropy anomaly for obfuscated base64/rot13 payloads
-- [2024-10-10] test: add test suite for encoded payload detection
-- [2024-10-17] fix: handle empty and whitespace-only string inputs safely
-- [2024-10-24] perf: optimize token entropy calculation using fast byte histograms
-- [2024-10-31] feat: add JSON telemetry export for SIEM security pipelines
-- [2024-11-08] feat: add markdown report formatting for red-team audit logs
-- [2024-11-15] docs: add incident response guide for prompt injection detection
-- [2024-11-22] feat: add indirect prompt injection detection for retrieved RAG chunks
-- [2024-11-30] feat: flag simulated system boundaries within context documents
-- [2024-12-07] test: verify detection of synthetic system prompt markers in context
-- [2024-12-14] chore: bump version to v0.5.0 and polish release notes
-- [2025-01-10] fix: prevent regex catastrophic backtracking on pathological repetitive strings
-- [2025-01-22] test: add ReDoS resilience unit tests with 100k character payloads
-- [2025-02-03] perf: enforce timeout bounds on all regex evaluations
-- [2025-02-15] feat: implement structural quarantine tags for untrusted data
-- [2025-02-27] docs: document sandwich defense and delimiter enclosure patterns
-- [2025-03-11] feat: expand injection suite with multi-turn prompt leak attacks
-- [2025-03-23] feat: add code execution prompt injection test cases
-- [2025-04-04] test: verify high detection rate on code sandbox escape vectors
-- [2025-04-16] fix: normalize unicode canonical equivalence (NFC) before rule scanning
-- [2025-04-28] docs: update README with updated detection scores: 96.4% ASR defense
-- [2025-05-10] feat: add --strict mode for zero-tolerance security environments
-- [2025-05-22] feat: add --threshold configuration for heuristic anomaly score
-- [2025-06-03] test: verify strict mode catches borderline adversarial prompts
-- [2025-06-15] perf: stream file inputs during batch evaluation to minimize RAM usage
-- [2025-06-28] feat: add lightweight WSGI/ASGI middleware adapter
-- [2025-07-10] docs: add FastAPI and Flask integration snippet in documentation
-- [2025-07-22] test: verify middleware intercepts malicious payloads and returns 403
-- [2025-08-03] feat: implement multi-lingual prompt injection detection (Spanish, Mandarin, Russian)
-- [2025-08-15] feat: add translation-based evasion attack detectors
-- [2025-08-27] test: verify detection of translated jailbreak signatures
-- [2025-09-08] perf: optimize regex pattern grouping to reduce evaluation time by 40%
-- [2025-09-20] docs: add threat intelligence report on multilingual jailbreak trends
-- [2025-10-02] feat: implement semantic delimiter sandwiching with randomized boundary tokens
-- [2025-10-14] test: verify randomized boundaries prevent delimiter prediction attacks
-- [2025-10-26] fix: handle nested markdown formatting inside user prompts cleanly
-- [2025-11-07] feat: add telemetry hook for logging detected threat signatures to OpenTelemetry
-- [2025-11-19] chore: release v1.0.0 production milestone with certified guardrails
-- [2025-12-01] chore: update pyproject.toml dependencies and bump build tools
-- [2026-01-12] feat: implement agentic tool call poisoning detector
-- [2026-01-26] feat: verify integrity of tool execution arguments before dispatch
-- [2026-02-10] test: add unit tests for detecting SQL injection in LLM tool parameters
-- [2026-02-25] docs: add threat model for Autonomous Agent Tool Hijacking
-- [2026-03-12] feat: implement context window boundary isolation for multi-tenant RAG
-- [2026-03-26] test: verify context isolation prevents tenant data leakage through prompt extraction
-- [2026-04-10] fix: correct edge case where escaped quotes bypassed JSON parameter sanitizer
-- [2026-04-25] perf: accelerate multi-pattern scanning using Aho-Corasick automaton
-- [2026-05-10] test: benchmark Aho-Corasick scanner achieving > 50 MB/s throughput
-- [2026-05-25] docs: update README with agentic guardrail performance benchmarks
-- [2026-06-08] feat: implement streaming token-by-token prompt injection detector
-- [2026-06-23] feat: abort LLM generation immediately upon detecting adversarial tokens
-- [2026-07-08] test: verify streaming abort saves > 80% token costs during active attack
-- [2026-07-23] docs: document streaming detection architecture for low-latency APIs
-- [2026-08-06] perf: optimize streaming buffer windowing for sub-millisecond per-token checks
-- [2026-08-21] fix: ensure compatibility with Python 3.12 and modern async frameworks
-- [2026-09-05] test: verify zero false aborts on streaming generation of technical documentation
+[2024-01-26T17:12:11] chore: scaffold: initialize prompt injection guard architecture
+[2024-03-14T18:16:39] feat: detectors: implement heuristic delimiter hijacking and override parsers
+[2024-04-26T10:20:43] feat: benchmark: add red-teaming evaluation suite with ASR and FPR metrics
+[2025-06-23T14:08:31] test: add unit tests for adversarial detection and benign rejection
+[2025-09-13T10:45:25] feat: cli: add CLI security scanner with trigger explanations
+[2025-12-11T11:51:16] ci: configure automated CI security workflow
+[2026-02-20T12:24:52] docs: complete production README with security metrics and red-teaming examples
+[2026-03-23T17:45:12] sec: expand delimiter hijacking heuristics for XML/HTML tags
+[2026-05-04T18:19:23] perf: optimize regex DFA compiler for sub-millisecond audit throughput
+[2026-06-08T19:14:06] feat: detectors: add support for indirect prompt injection in markdown tables
+[2026-09-01T14:11:18] feat: detectors: add base64-encoded jailbreak payload detection
+[2026-09-02T12:21:29] docs: update safety benchmarks with OWASP LLM Top 10 2025 guidelines
+[2026-09-11T15:24:08] chore: release v0.3.1 maintenance update
