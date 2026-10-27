@@ -49,3 +49,6 @@ class PromptInjectionDetector:
             confidence=round(confidence, 2),
             detected_patterns=matched
         )
+
+    # XML tag injection defense
+    # e.g. <system>, </system>
