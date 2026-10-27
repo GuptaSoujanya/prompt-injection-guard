@@ -24,3 +24,5 @@ class PromptInjectionDetector:
             "confidence": 0.95 if is_threat else 0.05,
             "detected_triggers": matched
         }
+
+    # Base64 obfuscation probe detection
