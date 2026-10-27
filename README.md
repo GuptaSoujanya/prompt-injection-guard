@@ -46,3 +46,5 @@ Apache 2.0 License (c) 2024 Soujanya Gupta.
 <!-- PR #73: fix: prevent potential zero division during variance calculation -->
 
 <!-- PR #86: feat: add timestamp logging to telemetry output -->
+
+<!-- PR #99: chore: update pre-commit linter configurations -->
