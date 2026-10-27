@@ -44,3 +44,5 @@ Apache 2.0 License (c) 2024 Soujanya Gupta.
 <!-- PR #60: docs: add hardware environment specifications to README -->
 
 <!-- PR #73: fix: prevent potential zero division during variance calculation -->
+
+<!-- PR #86: feat: add timestamp logging to telemetry output -->
